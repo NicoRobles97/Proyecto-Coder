@@ -173,6 +173,10 @@ main section div h4 {
     margin: 20px 0;
 }
 
+.fotoPerfil {
+    width: 7vw;
+}
+
 #nuestrosJugadores, #nuevasIncorporaciones {
     text-decoration: underline;
 }
