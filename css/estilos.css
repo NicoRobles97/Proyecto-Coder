@@ -10,7 +10,7 @@
 
 header {
     padding-top: 5px;
-    height: 130px;
+    height: 15vh;
     display: flex;
     background-color: black;
     justify-content: space-between;
@@ -18,7 +18,7 @@ header {
 }
 
 #logo {
-    max-height: 100px;
+    max-height: 15vh;
     padding-bottom: 5px;
 }
 
@@ -60,16 +60,16 @@ h3 a {
 
 /* section */
 
-section {
+main section {
     background-color: #3B1210;
 }
 
-section div {
+main section div {
     color: whitesmoke;
     text-align: center;
 }
 
-section div h2 {
+main section div h2 {
     font-size: 50px;
     text-decoration: underline;
     padding-bottom: 20px;
@@ -77,15 +77,16 @@ section div h2 {
 }
 
 .cajaRecortes {
+    width: 100%;
     padding: 30px 10px 60px 10px;
 }
 
-section div p {
+main section div p {
     display: inline;
     padding: 30px 60px;
 }
 
-section div p iframe {
+main section div p iframe {
     max-width: 25%;
 }
 
