@@ -65,33 +65,72 @@ main section div p iframe {
 
 /* footer */
 
-footer {
-    height: 120px;
-    background-color: black;
-    color: whitesmoke;
-    display: flex;
-    justify-content: space-between;
+@media only screen and (min-width: 1100px) {
+
+    footer {
+        height: 120px;
+        background-color: black;
+        color: whitesmoke;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer div.redes {
+        padding: 10px 30px 5px 30px;
+        width: 400px;
+    }
+
+    footer h3 {
+        font-size: 15px;
+        display: block;
+        padding: 6px 137px;
+    }
+
+    footer div a {
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    footer div.derechos {
+        font-size: 20px;
+        padding: 50px 0 50px 80px;
+    }
 }
 
-footer div.redes {
-    padding: 10px 30px 5px 30px;
-    width: 400px;
-}
+@media only screen and (max-width: 1100px) {
+    footer {
+        height: 30vh;
+        background-color: black;
+        color: whitesmoke;
+        
+        justify-content: space-between;
+    }
 
-footer div.redes h3 {
-    font-size: 15px;
-    display: block;
-    padding: 6px 137px;
-}
+    footer span {
+        display: flex;
+    }
 
-footer div a {
-    padding: 20px;
-    justify-content: space-between;
-}
+    footer div.redes {
+        display: flex;
+        padding: 10px 30px 10px 30px;
+        width: 20vw;
+    }
 
-footer div.derechos {
-    font-size: 20px;
-    padding: 50px 0 50px 80px;
+    footer h3 {
+        font-size: 15px;
+        display: block;
+        padding: 2% 10%;
+    }
+
+    footer div a {
+        padding: 10%;
+        justify-content: space-between;
+    }
+
+    footer div.derechos {
+        font-size: 20px;
+        padding: 5%;
+    }
 }
 
 /* PAGE-NOTICIAS */
@@ -150,7 +189,8 @@ main section div h4 {
     width: 7vw;
 }
 
-#nuestrosJugadores, #nuevasIncorporaciones {
+#nuestrosJugadores,
+#nuevasIncorporaciones {
     text-decoration: underline;
 }
 
@@ -215,7 +255,7 @@ main form {
     padding: 30px 0;
 }
 
-main form fieldset{
+main form fieldset {
     border-radius: 2px;
     padding: 5px;
 }
