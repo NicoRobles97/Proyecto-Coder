@@ -167,6 +167,12 @@ main section div h4 {
     float: right;
 }
 
+@media only screen and (max-width: 1200px) {
+    main section div {
+        display: block !important;
+        width: 90% !important;
+    }
+}
 /* PAGE-PLANTILLA */
 
 .plantillaJugadores {
