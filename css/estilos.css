@@ -6,33 +6,6 @@
     box-sizing: border-box;
 }
 
-/* header */
-
-header {
-    padding-top: 5px;
-    height: 15vh;
-    display: flex;
-    background-color: black;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#logo {
-    max-height: 15vh;
-    padding-bottom: 5px;
-}
-
-header nav ul {
-    padding-right: 50px;
-    display: flex;
-    gap: 50px;
-}
-
-header nav ul li a {
-    color: whitesmoke;
-    font-size: 40px;
-}
-
 /* main */
 
 main {
