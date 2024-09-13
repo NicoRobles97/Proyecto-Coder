@@ -210,6 +210,17 @@ main section div p {
     font-size: 15px;
 }
 
+@media only screen and (max-width: 1200px) {
+
+    .plantillaIncorporaciones {
+        width: 90%;
+    }
+    
+    .plantillaJugadores {
+        width: 90%;
+    }
+}
+
 /* PAGE-LOGROS */
 
 .sectionLogros1 {
