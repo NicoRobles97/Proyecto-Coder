@@ -1,278 +1,198 @@
-/* reset */
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* main */
-
-main {
-    background-color: #3B1210;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    color: whitesmoke;
+body {
+  overflow-x: hidden;
 }
 
-main div {
-    width: 40%;
-    min-width: 200px;
-    padding: 10px 10px 20px 10px;
-    font-size: 20px;
+body main {
+  background-color: #3B1210;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: whitesmoke;
+  width: 100vw;
+}
+body main .cajaClan {
+  justify-content: center;
+  width: 80vw;
+  display: flex;
+}
+body main div {
+  width: 40%;
+  min-width: 200px;
+  padding: 10px 10px 20px 10px;
+  font-size: 20px;
+}
+body main section {
+  background-color: #3B1210;
+}
+body main section .cajaRecortes {
+  width: 100%;
+  padding: 30px 10px 60px 10px;
+}
+body main section div {
+  color: whitesmoke;
+  text-align: center;
+}
+body main section div .noticias:hover {
+  color: blue;
+}
+body main section div .cajaRecortes {
+  width: 100%;
+  padding: 30px 10px 60px 10px;
+}
+body main section div ol .jugadorLink:hover {
+  color: blue;
+}
+body main section div ol li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+body main section div h3 {
+  text-decoration: underline;
+}
+body main section div h3 a {
+  color: whitesmoke;
+}
+body main section div h2 {
+  font-size: 50px;
+  text-decoration: underline;
+  padding-bottom: 20px;
+  text-align: center;
+}
+body main section div p {
+  display: inline;
+  padding: 30px 60px;
+}
+body main section div p iframe {
+  max-width: 25%;
+}
+body footer {
+  height: 120px;
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+body footer div a {
+  padding: 20px;
+  justify-content: space-between;
+}
+body footer div .redes {
+  padding: 10px 30px 5px 30px;
+  width: 400px;
+}
+body footer div .derechos {
+  font-size: 20px;
+  padding: 50px 0 50px 80px;
+}
+body footer h3 {
+  font-size: 15px;
+  display: block;
+  padding: 6px 137px;
 }
 
-h3 {
-    text-decoration: underline;
+main #tituloNoticias {
+  text-decoration: underline;
 }
-
-h3 a {
-    color: whitesmoke;
-}
-
-/* section */
-
 main section {
-    background-color: #3B1210;
+  text-align: center;
 }
-
-main section div {
-    color: whitesmoke;
-    text-align: center;
+main section .notis {
+  width: 40vw !important;
+  display: inline-block;
+  text-align: justify;
 }
-
-main section div h2 {
-    font-size: 50px;
-    text-decoration: underline;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.cajaRecortes {
-    width: 100%;
-    padding: 30px 10px 60px 10px;
-}
-
-main section div p {
-    display: inline;
-    padding: 30px 60px;
-}
-
-main section div p iframe {
-    max-width: 25%;
-}
-
-/* footer */
-
-@media only screen and (min-width: 1100px) {
-
-    footer {
-        height: 120px;
-        background-color: black;
-        color: whitesmoke;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    footer div.redes {
-        padding: 10px 30px 5px 30px;
-        width: 400px;
-    }
-
-    footer h3 {
-        font-size: 15px;
-        display: block;
-        padding: 6px 137px;
-    }
-
-    footer div a {
-        padding: 20px;
-        justify-content: space-between;
-    }
-
-    footer div.derechos {
-        font-size: 20px;
-        padding: 50px 0 50px 80px;
-    }
-}
-
-@media only screen and (max-width: 1100px) {
-    footer {
-        height: 30vh;
-        background-color: black;
-        color: whitesmoke;
-        
-        justify-content: space-between;
-    }
-
-    footer span {
-        display: flex;
-    }
-
-    footer div.redes {
-        display: flex;
-        padding: 10px 30px 10px 30px;
-        width: 20vw;
-    }
-
-    footer h3 {
-        font-size: 15px;
-        display: block;
-        padding: 2% 10%;
-    }
-
-    footer div a {
-        padding: 10%;
-        justify-content: space-between;
-    }
-
-    footer div.derechos {
-        font-size: 20px;
-        padding: 5%;
-    }
-}
-
-/* PAGE-NOTICIAS */
-
-#tituloNoticias,
-h4 {
-    text-decoration: underline;
-}
-
-main section {
-    text-align: center;
-}
-
-main section div {
-    display: inline-block;
-    text-align: justify;
-}
-
 main section div h4 {
-    text-align: center;
+  text-decoration: underline;
+  text-align: center;
+}
+main section div #logoCaducup {
+  float: right;
+  width: 20%;
+}
+main section div #logoTorneo {
+  float: right;
+  width: 20%;
 }
 
-.caducup {
-    display: inline-block;
+main .plantillaJugadores {
+  width: 45%;
+  border: solid;
+  border-color: black;
+  padding-top: 10px;
+  margin: 20px 2px;
 }
-
-#logoCaducup {
-    float: right;
-    width: 20%;
+main .plantillaIncorporaciones {
+  width: 45%;
+  border: solid;
+  border-color: black;
+  padding-top: 10px;
+  margin: 20px 2px;
 }
-
-#logoTorneo {
-    width: 45%;
-    float: right;
+main section div {
+  display: inline;
 }
-
-@media only screen and (max-width: 1200px) {
-    main section div {
-        display: block !important;
-        width: 90% !important;
-    }
+main section div .fotoPerfil {
+  width: 7vw;
 }
-/* PAGE-PLANTILLA */
-
-.plantillaJugadores {
-    width: 45%;
-    border: solid;
-    border-color: black;
-    padding-top: 10px;
-    margin: 20px 0;
-}
-
-.plantillaIncorporaciones {
-    width: 45%;
-    border: solid;
-    border-color: black;
-    padding-top: 10px;
-    margin: 20px 0;
-}
-
-.fotoPerfil {
-    width: 7vw;
-}
-
-#nuestrosJugadores,
-#nuevasIncorporaciones {
-    text-decoration: underline;
-}
-
 main section div h3 {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 main section div img {
-    width: 100px;
-    height: 120px;
-    float: right;
-    margin: 5px 0 0 5px;
+  width: 100px;
+  height: 120px;
+  float: right;
+  margin: 5px 0 0 5px;
 }
-
 main section div p {
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    font-size: 15px;
+  font-size: 15px;
+}
+main section #nuestrosJugadores, main section #nuevasIncorporaciones {
+  text-decoration: underline;
 }
 
-@media only screen and (max-width: 1200px) {
-
-    .plantillaIncorporaciones {
-        width: 90%;
-    }
-    
-    .plantillaJugadores {
-        width: 90%;
-    }
+main .sectionLogros1 {
+  width: 100%;
+  padding: 10px 5px 10px 40px;
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
-/* PAGE-LOGROS */
-
-.sectionLogros1 {
-    width: 100%;
-    padding: 10px 5px 10px 40px;
-    text-align: center;
-    justify-content: center;
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+main .sectionLogros2 {
+  width: 100%;
+  padding: 10px 5px 10px 40px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
-.sectionLogros2 {
-    width: 100%;
-    padding: 10px 5px 10px 40px;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 main section ul {
-    list-style: none;
+  list-style: none;
 }
-
+main section ul .primerLugar {
+  color: gold;
+}
+main section ul .segundoLugar {
+  color: grey;
+}
+main section ul .tercerLugar {
+  color: rgb(75, 53, 29);
+}
 main section ul h2 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
-.primerLugar {
-    color: gold;
-}
-
-.segundoLugar {
-    color: grey;
-}
-
-.tercerLugar {
-    color: rgb(75, 53, 29);
-}
-
-/* PAGE-CONTACTO */
 
 main form {
-    padding: 30px 0;
+  padding: 30px 0;
+}
+main form fieldset {
+  border-radius: 2px;
+  padding: 5px;
 }
 
-main form fieldset {
-    border-radius: 2px;
-    padding: 5px;
-}
+/*# sourceMappingURL=estilos.css.map */

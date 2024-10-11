@@ -1,0 +1,32 @@
+main {
+    #tituloNoticias {
+        text-decoration: underline;
+    }
+
+    section {
+        text-align: center;
+
+        .notis {
+            width: 40vw !important;
+            display: inline-block;
+            text-align: justify;
+        }
+
+        div {
+            h4 {
+                text-decoration: underline;
+                text-align: center;
+            }
+
+            #logoCaducup {
+                float: right;
+                width: 20%;
+            }
+
+            #logoTorneo {
+                float: right;
+                width: 20%;
+            }
+        }
+    }
+}

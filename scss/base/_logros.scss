@@ -1,0 +1,46 @@
+@import "../utilidades/listas";
+
+main {
+    .sectionLogros1 {
+        width: 100%;
+        padding: 10px 5px 10px 40px;
+        text-align: center;
+        justify-content: center;
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .sectionLogros2 {
+        width: 100%;
+        padding: 10px 5px 10px 40px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium',
+            'Arial Narrow',
+            Arial,
+            sans-serif;
+    }
+
+    section {
+        ul {
+            list-style: none;
+
+            .primerLugar {
+                color: nth($list-color, 1);
+            }
+
+            .segundoLugar {
+                color: nth($list-color, 2);
+            }
+
+            .tercerLugar {
+                color: nth($list-color, 3);
+            }
+
+            h2 {
+                text-decoration: underline;
+            }
+            
+        }
+    }
+}

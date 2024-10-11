@@ -1,0 +1,114 @@
+body {
+    main {
+        background-color: #3B1210;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        color: whitesmoke;
+        width: 100vw;
+
+        .cajaClan {
+            justify-content: center;
+            width: 80vw;
+            display: flex;
+        }
+
+        div {
+            width: 40%;
+            min-width: 200px;
+            padding: 10px 10px 20px 10px;
+            font-size: 20px;
+        }
+
+        section {
+            background-color: #3B1210;
+
+            .cajaRecortes {
+                width: 100%;
+                padding: 30px 10px 60px 10px;
+            }
+
+            div {
+                color: whitesmoke;
+                text-align: center;
+
+                .noticias:hover {
+                    color: blue;
+                }
+
+                .cajaRecortes {
+                    width: 100%;
+                    padding: 30px 10px 60px 10px;
+                }
+
+                ol {
+                    .jugadorLink:hover {
+                        color: blue;
+                    }
+
+                    li {
+                        a {
+                            color: whitesmoke;
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                h3 {
+                    text-decoration: underline;
+
+                    a {
+                        color: whitesmoke;
+                    }
+                }
+
+                h2 {
+                    font-size: 50px;
+                    text-decoration: underline;
+                    padding-bottom: 20px;
+                    text-align: center;
+                }
+
+                p {
+                    display: inline;
+                    padding: 30px 60px;
+
+                    iframe {
+                        max-width: 25%;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        height: 120px;
+        background-color: black;
+        color: whitesmoke;
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            a {
+                padding: 20px;
+                justify-content: space-between;
+            }
+
+            .redes {
+                padding: 10px 30px 5px 30px;
+                width: 400px;
+            }
+
+            .derechos {
+                font-size: 20px;
+                padding: 50px 0 50px 80px;
+            }
+        }
+
+        h3 {
+            font-size: 15px;
+            display: block;
+            padding: 6px 137px;
+        }
+    }
+}
